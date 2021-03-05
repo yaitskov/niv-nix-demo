@@ -1,3 +1,4 @@
 let
   sources = import ./nix/sources.nix;
-in sources.nixpkgs;
+in
+  sources.nixpkgs
